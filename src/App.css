@@ -6,7 +6,7 @@
   overflow-x:hidden;
 }
 
-.navbar {
+.headerbar {
   color: #fff;
   background-color: #000;
   display: flex;
@@ -19,18 +19,19 @@
 
 .counter {
   position: fixed;
-  top: 60px;
+  top: 100px;
   left: 30px;
 }
 
 .delete {
   position: fixed;
-  top: 90px;
+  top: 130px;
   right: 30px;
 }
 
 .btn__delete {
   font-size: 18px;
+  width: 16vh;
   border-radius: 5%;
   outline: none;
   padding: 5px;
@@ -61,7 +62,7 @@
 }
 
 .controls__input button {
-  width: 21%;
+  width: 17.5%;
   margin: 10px auto;
   text-align: center;
   font-size: 18px;
@@ -142,7 +143,12 @@
   color: #fff;
   border-radius: 5%;
   border: 1px solid #f4f4f4;
+}
 
+.meals__filter__container select {
+  padding: 5px;
+  border: 1px solid #eeeeee;
+  font-size: 18px;
 
 }
 

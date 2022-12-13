@@ -3,3 +3,7 @@ body {
   font-family: 'Playfair Display', serif;
   font-weight: 800;
 }
+
+button, select, input {
+  font-family: 'Playfair Display', serif;
+}

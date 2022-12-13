@@ -4,7 +4,7 @@ const AppMealsList = ({ meals, deleteMealHandler }) => {
  
   return (
     <div className='meals__list__wrapper'>
-        {meals.map((meal, index) => {
+        {meals?.map((meal, index) => {
            return <div key={index} className='meals__list__inner'>
                 <div>{meal.mealName}: {meal.calories}</div>
                 <div>
